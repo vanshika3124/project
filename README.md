@@ -1,16 +1,38 @@
-# React + Vite
+FOODLAB: INSIGHT ENGINE
+FoodLab is a high-performance web application built with React.js and Tailwind CSS. It leverages the OpenFoodFacts API to provide users with a seamless experience to explore, search, and analyze food products' nutritional data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: View Deployed App
 
-Currently, two official plugins are available:
+🛠️ TECH STACK
+Frontend: React.js (Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Styling: Tailwind CSS (Dark Mode, Glassmorphism)
 
-## React Compiler
+Icons: Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+API Client: Axios
 
-## Expanding the ESLint configuration
+Routing: React Router DOM v6
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment: Netlify
+
+✨ KEY FEATURES
+Premium Dark UI: A minimalist, tech-inspired interface with glassmorphism and smooth animations.
+
+Dynamic Product Discovery: Real-time data fetching from the OpenFoodFacts database.
+
+Smart Search: Search for products by name or barcode instantly.
+
+Category Filtration: Quickly filter products through high-level categories (Dairy, Snacks, Beverages, etc.).
+
+Infinite Pagination: "Sync More Data" functionality to load products dynamically without page refreshes.
+
+Deep Insights: Detailed product pages showing:
+
+Nutrition Grades (A-E)
+
+Detailed Ingredients List
+
+Nutritional Breakdown (Energy, Proteins, etc. per 100g)
+
+Fully Responsive: Optimized for everything from mobile screens to large desktop monitors.
