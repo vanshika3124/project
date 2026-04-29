@@ -1,7 +1,7 @@
 FOODLAB: INSIGHT ENGINE
 FoodLab is a high-performance web application built with React.js and Tailwind CSS. It leverages the OpenFoodFacts API to provide users with a seamless experience to explore, search, and analyze food products' nutritional data.
 
-🚀 Live Demo: View Deployed App
+🚀 Live Demo: [View Deployed App](https://foodexploree.netlify.app/)
 
 🛠️ TECH STACK
 Frontend: React.js (Vite)
