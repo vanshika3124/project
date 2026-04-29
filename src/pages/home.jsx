@@ -19,10 +19,10 @@ const fetchCategories = async () => {
       } catch (err) { console.error(err); }
     };
     fetchCategories();
-    fetchProducts(true); // Initial Load
+    fetchProducts(true);  
   }, []);
 
-  // Category change hone par automatic search
+ 
   useEffect(() => {
     if (category) {
       setPage(1);
@@ -30,7 +30,7 @@ const fetchCategories = async () => {
     }
   }, [category]);
 
-  // Page change hone par load more
+   
   useEffect(() => {
     if (page > 1) fetchProducts(false);
   }, [page]);
@@ -38,7 +38,7 @@ const fetchCategories = async () => {
   const fetchProducts = async (isNewSearch = false) => {
     setLoading(true);
     try {
-      // isNewSearch true hai toh page 1 se fetch karega
+       
       let url = `https://world.openfoodfacts.org/cgi/search.pl?action=process&json=true&page=${isNewSearch ? 1 : page}&page_size=12&search_terms=${searchTerm}`;
       if (category) url += `&tagtype_0=categories&tag_contains_0=contains&tag_0=${category}`;
       
@@ -74,7 +74,7 @@ const fetchCategories = async () => {
             </div>
           </div>
           
-          {/* SEARCH BAR FIXED: Form added to handle submit */}
+           
           <form onSubmit={handleSearchSubmit} className="relative w-full md:w-1/2 flex gap-2">
             <div className="relative flex-1">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 w-5 h-5" />
